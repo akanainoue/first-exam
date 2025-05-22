@@ -1,0 +1,109 @@
+
+
+/* ヘッダー */
+.header {
+    background-color: white;
+    padding: 15px 30px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #e5ded8;
+}
+
+.site-title {
+    font-size: 1.8em;
+    color: #8c7b6b;
+    margin: 0;
+}
+
+.register-link {
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    text-decoration: none;
+    font-size: 0.9em;
+    color: #c1b6ac;
+    border: 1px solid #e5ded8;
+    padding: 4px 10px;
+    border-radius: 5px;
+    opacity: 0.6;
+    transition: all 0.2s ease;
+}
+
+.register-link:hover {
+    opacity: 1;
+    background-color: #f3ece6;
+}
+
+/* メイン */
+.login-main {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.form-title {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #7c6c61;
+}
+
+.login-form-container {
+    background-color: white;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 30px 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.login-form label {
+    margin-bottom: 6px;
+    font-size: 0.95em;
+    color: #6b5c52;
+}
+
+.login-form input {
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f7f4f2;
+    font-size: 0.95em;
+    color: #6e645c;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.login-form form__error {
+    height: 15px;
+    color: #ff0000;
+    text-align: left;
+}
+
+.submit-button {
+    background-color: #8c7b6b;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.submit-button:hover {
+    background-color: #a39182;
+}

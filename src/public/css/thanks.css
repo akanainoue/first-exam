@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #fff;
+    color: #5f4c42;
+}
+
+.thankyou-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    overflow: hidden;    /*要素の中身（子要素）がはみ出したときに、その「はみ出し部分を表示しない」ようにするCSSプロパティ*/
+}
+
+.thankyou-background {
+    position: absolute;
+    font-size: 220px;
+    color: #eae5e0;
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    z-index: 0; /*z-indexの値が大きいほど前面に表示され、小さいほど背面に表示されます。positionがrelative,
+        absolute,
+        fixed,
+        stickyのどれかに設定されていないと効果がありません*/
+    user-select: none; /*ユーザーが要素のテキストを選択（ドラッグでハイライト）できないようにする*/
+}
+
+.thankyou-message {
+    z-index: 1;
+}
+
+.thankyou-message p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.home-button {
+    background-color: #7b6651;
+    color: white;
+    padding: 10px 24px;
+    text-decoration: none;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.home-button:hover {
+    background-color: #5c4f3d;
+} /*マウスカーソルを乗せたとき（hover）、背景色を変更する*/

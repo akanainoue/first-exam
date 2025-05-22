@@ -1,0 +1,86 @@
+body {
+    font-family: 'Georgia',
+        'Times New Roman', sans-serif;
+    background-color:#f2e9e4;
+    color: #5f4c42;
+    margin: 0;
+}
+
+.site-header {
+    background-color: white;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #e5ded8;
+    margin-bottom: 30px;
+}
+
+.site-title {
+    font-family: 'Georgia', serif;
+    font-size: 36px;
+    font-weight: normal;
+    color: #5a4b3b;
+    margin: 0;
+}
+
+.confirm-container {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 30px 15px;
+}
+
+h2 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.confirm-table {
+    width: 70%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+}
+
+.confirm-table th,
+.confirm-table td {
+    border: 1px solid #e5ded8;
+    padding: 15px 30px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.confirm-table th {
+    background-color: #b9a292;
+    color: white;
+    width: 200px;
+    font-weight: bold;
+}
+
+.confirm-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.submit-button,
+.back-button {
+    background-color: #7b6651;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100px;
+    transition: background-color 0.3s ease;
+    margin-bottom: 30px;
+}
+
+.back-button {
+    background-color: #aaa;
+}
+
+.submit-button:hover {
+    background-color: #5c4f3d;
+}
+
+.back-button:hover {
+    background-color: #888;
+}
